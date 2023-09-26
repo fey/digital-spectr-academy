@@ -6,6 +6,9 @@
         "phpunit/phpunit": "^10"
     },
     "autoload": {
+        "psr-4": {
+            "Fey\\DigitalSpectrAcademy\\": "src"
+        },
         "files": [
             "src/Module1/ExtractStrings.php",
             "src/Module1/GetWithPrefix.php",
