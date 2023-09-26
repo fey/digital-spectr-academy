@@ -1,0 +1,14 @@
+{
+    "name": "feycot/digital-spectr-academy",
+    "type": "project",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7",
+        "phpunit/phpunit": "^10"
+    },
+    "authors": [
+        {
+            "name": "Nikolay Gagarinov",
+            "email": "feycot@gmail.com"
+        }
+    ]
+}
