@@ -5,6 +5,13 @@
         "squizlabs/php_codesniffer": "^3.7",
         "phpunit/phpunit": "^10"
     },
+    "autoload": {
+        "files": [
+            "src/Module1/ExtractStrings.php",
+            "src/Module1/GetWithPrefix.php",
+            "src/Module1/SortCities.php"
+        ]
+    },
     "authors": [
         {
             "name": "Nikolay Gagarinov",
