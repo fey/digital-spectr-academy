@@ -29,7 +29,16 @@ namespace Fey\DigitalSpectrAcademy\Module1\SortCities;
 
 function solution(array $cities): array
 {
-    usort($cities, fn($city) => $city['sort']);
 
-    return $cities;
+    usort($cities, function ($city1, $city2) {
+        $sortCompare = $city1['sort'] - $city2['sort'];
+
+        if ($sortCompare === 0) {
+            return strcmp($city1['name'], $city2['name']);
+        }
+
+        return $city1['sort'] <=> $city2['sort'];
+    });
+
+    return array_values($cities);
 }
