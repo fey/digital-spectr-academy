@@ -1,6 +1,6 @@
 <?php
 
-namespace Fey\DigitalSpectrAcademy\Module1\Shapes;
+namespace Fey\DigitalSpectrAcademy\Module1\ShapesApi\Shapes;
 
 // Необходимо создать класс "Фигура".
 // От данного класса наследовать 3 класса двумерных фигур (например, квадрат, треугольник, окружность и т.д.).
@@ -18,4 +18,5 @@ namespace Fey\DigitalSpectrAcademy\Module1\Shapes;
 
 abstract class Shape
 {
+    abstract public function getArea(): float;
 }

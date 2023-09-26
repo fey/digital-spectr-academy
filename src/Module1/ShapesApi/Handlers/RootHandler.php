@@ -1,6 +1,6 @@
 <?php
 
-namespace Fey\DigitalSpectrAcademy\Module1\Shapes\Handlers;
+namespace Fey\DigitalSpectrAcademy\Module1\ShapesApi\Handlers;
 
 class RootHandler implements Handler
 {

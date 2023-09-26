@@ -2,9 +2,9 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Fey\DigitalSpectrAcademy\Module1\Shapes\Handlers\NotFoundHandler;
-use Fey\DigitalSpectrAcademy\Module1\Shapes\Handlers\Handler;
-use Fey\DigitalSpectrAcademy\Module1\Shapes\Handlers\RootHandler;
+use Fey\DigitalSpectrAcademy\Module1\ShapesApi\Handlers\NotFoundHandler;
+use Fey\DigitalSpectrAcademy\Module1\ShapesApi\Handlers\Handler;
+use Fey\DigitalSpectrAcademy\Module1\ShapesApi\Handlers\RootHandler;
 
 header('Content-Type: application/json; charset=utf-8');
 header('Accept: application/json');
