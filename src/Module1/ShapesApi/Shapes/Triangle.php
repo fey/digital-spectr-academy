@@ -8,8 +8,7 @@ class Triangle extends Shape
         private readonly float $sideA,
         private readonly float $sideB,
         private readonly float $sideC,
-    )
-    {
+    ) {
     }
 
     /**
@@ -17,7 +16,8 @@ class Triangle extends Shape
      * https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D1%83%D0%BB%D0%B0_%D0%93%D0%B5%D1%80%D0%BE%D0%BD%D0%B0
      * @return float
      */
-    public function getArea(): float {
+    public function getArea(): float
+    {
         $p = $this->getPerimeter() / 2;
         $a = $this->sideA;
         $b = $this->sideB;

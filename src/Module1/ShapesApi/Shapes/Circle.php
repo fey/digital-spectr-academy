@@ -4,7 +4,8 @@ namespace Fey\DigitalSpectrAcademy\Module1\ShapesApi\Shapes;
 
 class Circle extends Shape
 {
-    public function __construct(private readonly float $radius) {
+    public function __construct(private readonly float $radius)
+    {
     }
 
     public function getPerimeter(): float
