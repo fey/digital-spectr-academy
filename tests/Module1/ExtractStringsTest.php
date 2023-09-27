@@ -8,11 +8,6 @@ use function Fey\DigitalSpectrAcademy\Module1\ExtractStrings\solution;
 
 class ExtractStringsTest extends TestCase
 {
-    public function setUp(): void
-    {
-        parent::setUp();
-    }
-
     public function testSolution(): void
     {
         $data = [

@@ -8,11 +8,6 @@ use function Fey\DigitalSpectrAcademy\Module1\SortCities\solution;
 
 class SortCitiesTest extends TestCase
 {
-    public function setUp(): void
-    {
-        parent::setUp();
-    }
-
     public function testSolution(): void
     {
         $data = [
