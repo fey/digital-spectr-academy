@@ -95,7 +95,7 @@ class CalculateShapesHandler implements Handler
                 // Валидация может находиться внутри класса-фигуры. Тогда код будет попроще
                 ShapeParamValidator::validate($requiredParam, $params);
 
-                return Circle::fromParams(...$params);
+                return Circle::fromParams($params);
             },
             'triangle' => function () use ($params) {
                 $requiredParams = ['sideA', 'sideB', 'sideC'];
