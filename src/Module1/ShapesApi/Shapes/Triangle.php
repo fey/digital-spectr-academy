@@ -4,6 +4,11 @@ namespace Fey\DigitalSpectrAcademy\Module1\ShapesApi\Shapes;
 
 class Triangle extends Shape
 {
+    // NOTE: для треульника должна быть валидация -
+    // Треугольник существует только тогда, когда сумма любых двух его сторон больше третьей
+    // Если хотя бы в одном случае сторона окажется больше или равна сумме двух других,
+    // то треугольника с такими сторонами не существует.
+    // Для простоты такой валидации тут нет
     public function __construct(
         private readonly float $sideA,
         private readonly float $sideB,
