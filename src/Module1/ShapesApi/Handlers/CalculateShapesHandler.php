@@ -11,7 +11,7 @@ use Fey\DigitalSpectrAcademy\Module1\ShapesApi\Validators\ShapeParamValidator;
 
 class CalculateShapesHandler implements Handler
 {
-    public function __construct(readonly array $requestFormData)
+    public function __construct(readonly private array $requestFormData)
     {
     }
 
